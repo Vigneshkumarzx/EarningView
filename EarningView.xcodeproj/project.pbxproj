@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4272F1572B232C9400B81450 /* TotalEarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4272F1562B232C9400B81450 /* TotalEarningView.swift */; };
+		4272F1592B233B0700B81450 /* FullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4272F1582B233B0700B81450 /* FullView.swift */; };
 		429E28322B204513002FF3AC /* EarningViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E28312B204513002FF3AC /* EarningViewApp.swift */; };
 		429E28342B204513002FF3AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E28332B204513002FF3AC /* ContentView.swift */; };
 		429E28362B204515002FF3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 429E28352B204515002FF3AC /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4272F1562B232C9400B81450 /* TotalEarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalEarningView.swift; sourceTree = "<group>"; };
+		4272F1582B233B0700B81450 /* FullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullView.swift; sourceTree = "<group>"; };
 		429E282E2B204513002FF3AC /* EarningView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarningView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		429E28312B204513002FF3AC /* EarningViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningViewApp.swift; sourceTree = "<group>"; };
 		429E28332B204513002FF3AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				429E28412B204676002FF3AC /* Fonts */,
 				429E28372B204515002FF3AC /* Preview Content */,
 				429E283F2B20460C002FF3AC /* Color.swift */,
+				4272F1562B232C9400B81450 /* TotalEarningView.swift */,
+				4272F1582B233B0700B81450 /* FullView.swift */,
 			);
 			path = EarningView;
 			sourceTree = "<group>";
@@ -166,9 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4272F1572B232C9400B81450 /* TotalEarningView.swift in Sources */,
 				429E28342B204513002FF3AC /* ContentView.swift in Sources */,
 				429E28322B204513002FF3AC /* EarningViewApp.swift in Sources */,
 				429E28402B20460C002FF3AC /* Color.swift in Sources */,
+				4272F1592B233B0700B81450 /* FullView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

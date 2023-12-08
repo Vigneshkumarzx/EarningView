@@ -78,7 +78,7 @@ struct DottedDividerFull: View {
         GeometryReader { geometry in
             Path { path in
                 let startPoint = CGPoint(x: 0, y: geometry.size.height / 2)
-                let endPoint = CGPoint(x: geometry.size.width, y: geometry.size.height / 2)
+                let endPoint = CGPoint(x: geometry.size.width, y: geometry.size.height / 3)
                 path.move(to: startPoint)
 
                 for _ in stride(from: 0, to: geometry.size.width, by: 10) {
