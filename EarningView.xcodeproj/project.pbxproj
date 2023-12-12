@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4212AA722B281F88000DC27C /* PayoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212AA712B281F88000DC27C /* PayoutDetailView.swift */; };
+		427215622B26D9E1007DF13A /* PayoutHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427215612B26D9E1007DF13A /* PayoutHistoryView.swift */; };
+		427215682B270DFC007DF13A /* IncentiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427215672B270DFC007DF13A /* IncentiveView.swift */; };
 		4272F1572B232C9400B81450 /* TotalEarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4272F1562B232C9400B81450 /* TotalEarningView.swift */; };
 		4272F1592B233B0700B81450 /* FullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4272F1582B233B0700B81450 /* FullView.swift */; };
 		429E28322B204513002FF3AC /* EarningViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E28312B204513002FF3AC /* EarningViewApp.swift */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4212AA712B281F88000DC27C /* PayoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutDetailView.swift; sourceTree = "<group>"; };
+		427215612B26D9E1007DF13A /* PayoutHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutHistoryView.swift; sourceTree = "<group>"; };
+		427215672B270DFC007DF13A /* IncentiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncentiveView.swift; sourceTree = "<group>"; };
 		4272F1562B232C9400B81450 /* TotalEarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalEarningView.swift; sourceTree = "<group>"; };
 		4272F1582B233B0700B81450 /* FullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullView.swift; sourceTree = "<group>"; };
 		429E282E2B204513002FF3AC /* EarningView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarningView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +81,9 @@
 				429E283F2B20460C002FF3AC /* Color.swift */,
 				4272F1562B232C9400B81450 /* TotalEarningView.swift */,
 				4272F1582B233B0700B81450 /* FullView.swift */,
+				427215612B26D9E1007DF13A /* PayoutHistoryView.swift */,
+				427215672B270DFC007DF13A /* IncentiveView.swift */,
+				4212AA712B281F88000DC27C /* PayoutDetailView.swift */,
 			);
 			path = EarningView;
 			sourceTree = "<group>";
@@ -173,10 +182,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4272F1572B232C9400B81450 /* TotalEarningView.swift in Sources */,
+				4212AA722B281F88000DC27C /* PayoutDetailView.swift in Sources */,
 				429E28342B204513002FF3AC /* ContentView.swift in Sources */,
 				429E28322B204513002FF3AC /* EarningViewApp.swift in Sources */,
+				427215682B270DFC007DF13A /* IncentiveView.swift in Sources */,
 				429E28402B20460C002FF3AC /* Color.swift in Sources */,
 				4272F1592B233B0700B81450 /* FullView.swift in Sources */,
+				427215622B26D9E1007DF13A /* PayoutHistoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
