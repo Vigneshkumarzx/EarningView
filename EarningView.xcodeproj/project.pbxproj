@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4212AA722B281F88000DC27C /* PayoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212AA712B281F88000DC27C /* PayoutDetailView.swift */; };
+		4212AA7F2B2858BA000DC27C /* MyShiftsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212AA7E2B2858BA000DC27C /* MyShiftsView.swift */; };
+		4212AA842B288943000DC27C /* ShiftHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212AA832B288943000DC27C /* ShiftHistoryView.swift */; };
 		427215622B26D9E1007DF13A /* PayoutHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427215612B26D9E1007DF13A /* PayoutHistoryView.swift */; };
 		427215682B270DFC007DF13A /* IncentiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427215672B270DFC007DF13A /* IncentiveView.swift */; };
 		4272F1572B232C9400B81450 /* TotalEarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4272F1562B232C9400B81450 /* TotalEarningView.swift */; };
@@ -21,10 +23,13 @@
 		429E28472B204677002FF3AC /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 429E28432B204676002FF3AC /* Inter-Bold.ttf */; };
 		429E28482B204677002FF3AC /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 429E28442B204676002FF3AC /* Inter-Regular.ttf */; };
 		429E28492B204677002FF3AC /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 429E28452B204676002FF3AC /* Inter-SemiBold.ttf */; };
+		42BB8CDE2B28901C0092787A /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB8CDD2B28901C0092787A /* FAQView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4212AA712B281F88000DC27C /* PayoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutDetailView.swift; sourceTree = "<group>"; };
+		4212AA7E2B2858BA000DC27C /* MyShiftsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShiftsView.swift; sourceTree = "<group>"; };
+		4212AA832B288943000DC27C /* ShiftHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftHistoryView.swift; sourceTree = "<group>"; };
 		427215612B26D9E1007DF13A /* PayoutHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutHistoryView.swift; sourceTree = "<group>"; };
 		427215672B270DFC007DF13A /* IncentiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncentiveView.swift; sourceTree = "<group>"; };
 		4272F1562B232C9400B81450 /* TotalEarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalEarningView.swift; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 		429E28442B204676002FF3AC /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		429E28452B204676002FF3AC /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		429E284A2B20469C002FF3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		42BB8CDD2B28901C0092787A /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 				427215612B26D9E1007DF13A /* PayoutHistoryView.swift */,
 				427215672B270DFC007DF13A /* IncentiveView.swift */,
 				4212AA712B281F88000DC27C /* PayoutDetailView.swift */,
+				4212AA7E2B2858BA000DC27C /* MyShiftsView.swift */,
+				4212AA832B288943000DC27C /* ShiftHistoryView.swift */,
+				42BB8CDD2B28901C0092787A /* FAQView.swift */,
 			);
 			path = EarningView;
 			sourceTree = "<group>";
@@ -183,12 +192,15 @@
 			files = (
 				4272F1572B232C9400B81450 /* TotalEarningView.swift in Sources */,
 				4212AA722B281F88000DC27C /* PayoutDetailView.swift in Sources */,
+				4212AA842B288943000DC27C /* ShiftHistoryView.swift in Sources */,
+				4212AA7F2B2858BA000DC27C /* MyShiftsView.swift in Sources */,
 				429E28342B204513002FF3AC /* ContentView.swift in Sources */,
 				429E28322B204513002FF3AC /* EarningViewApp.swift in Sources */,
 				427215682B270DFC007DF13A /* IncentiveView.swift in Sources */,
 				429E28402B20460C002FF3AC /* Color.swift in Sources */,
 				4272F1592B233B0700B81450 /* FullView.swift in Sources */,
 				427215622B26D9E1007DF13A /* PayoutHistoryView.swift in Sources */,
+				42BB8CDE2B28901C0092787A /* FAQView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
